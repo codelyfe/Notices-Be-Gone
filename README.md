@@ -1,2 +1,10 @@
 # Notices-Be-Gone
-WordPress Plugin to hide Notices untile it is deactivated.
+WordPress Plugin to hide Notices until it is deactivated.
+
+## Hides Notices on these plugins and themes below: ( WordPress Core Notices are hidden )
+
+1. WordFence
+2. Yoast
+3. WPeMatico
+
+### Enjoy!
