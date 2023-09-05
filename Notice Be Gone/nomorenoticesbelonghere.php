@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Notice Be Gone
-Description: Hide admin notices ( Deactivate to displays Notices. )
+Description: Hide admin notices ( Deactivate to display Notices. )
 Version: 1.0
 Author: Codelyfe
 Url: https://codelyfe.github.io
