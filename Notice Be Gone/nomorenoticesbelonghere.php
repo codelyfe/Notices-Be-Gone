@@ -11,10 +11,27 @@ Url: https://codelyfe.github.io
 function hide_admin_notices() {
     echo '
     <style>
-    .notice {display: none !important;} 
-    .updated {display: none !important;}
-    .wf-notification-count-value, .wf-menu-badge, .wf-notification-count-container {display:none !important;}
-    .yoast-notification .yoast-seo-icon-wrap { display: none !important; } .yoast-notification{ display: none !important; }
+
+    /* ~ WordPress ~ */
+    .notice { display: none !important;} 
+    .updated { display: none !important; }
+    #adminmenu .awaiting-mod, #adminmenu .menu-counter, #adminmenu .update-plugins { display: none !important; }
+
+    /* ~ Plugins ~ */
+
+    /* WordFence */
+    .wf-notification-count-value, .wf-menu-badge, .wf-notification-count-container { display:none !important; }
+
+    /* Yoast */
+    .yoast-notification .yoast-seo-icon-wrap { display: none !important; } 
+    .yoast-notification{ display: none !important; }
+
+    /* WP Code */
+    .wpheaderandfooter-review-notice { display: none !important; }
+
+    /* AIOSEO */
+    #wpadminbar .aioseo-menu-notification-counter { display: none !important; }
+
     </style>
     ';
 }
