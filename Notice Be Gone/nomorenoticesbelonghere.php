@@ -32,6 +32,12 @@ function hide_admin_notices() {
     /* AIOSEO */
     #wpadminbar .aioseo-menu-notification-counter { display: none !important; }
 
+    .nri-nice-review { display: none !important; }
+    .nri-nice-review-wrapper { display: none !important; }
+    
+    /* WPFORMS */
+    .wpforms-notifications { display: none !important; }
+
     </style>
     ';
 }

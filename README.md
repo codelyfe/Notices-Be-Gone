@@ -8,5 +8,7 @@ WordPress Plugin to hide Notices until it is deactivated.
 3. WPeMatico
 4. WP Code
 5. AIOSEO
+6. WPFORMS
+7. BACKUP MIGRATION
 
 ### Enjoy!
